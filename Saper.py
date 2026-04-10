@@ -1,7 +1,7 @@
 import random
 from enum import Enum
 
-class Position(Enum):
+class Position(Enum): # liczba sąsiadujących pól w zależności od położenia pola
     CORNER = 3
     EDGE = 5
     MIDDLE = 8 
